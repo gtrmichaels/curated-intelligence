@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opossum Search</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    #logo {
+      float: left;
+      width: 292px;
+    }
+
+    #logo img {
+      width: 100%;
+    }
+
+    #search-box {
+      float: right;
+      width: 60%;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4285f4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/292px-Opossum_2.jpg" alt="Opossum Logo">
+      </div>
+      <div id="search-box">
+        <form action="https://www.google.com/search" method="get">
+          <input type="text" name="q" placeholder="Search the web" required>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <footer>
+    Powered by opossum search
+  </footer>
+</body>
+          </html>
